@@ -1,4 +1,5 @@
 language: python
+sudo: required
 install:
   - wget https://github.com/Z3Prover/z3/archive/z3-4.4.1.tar.gz
   - tar xzf z3-4.4.1.tar.gz

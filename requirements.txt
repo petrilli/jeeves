@@ -1,4 +1,3 @@
 macropy
 nose
 mock
-z3
