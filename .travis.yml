@@ -4,7 +4,7 @@ install:
   - pip install -r requirements.txt
   - wget https://github.com/Z3Prover/z3/archive/z3-4.4.1.tar.gz
   - tar xzf z3-4.4.1.tar.gz
-  - cd z3-4.4.1 && python scripts/mk_make.py && cd build && make && sudo make install
+  - cd z3-z3-4.4.1 && python scripts/mk_make.py && cd build && make && sudo make install
 python:
   - "2.7"
 # command to run tests
